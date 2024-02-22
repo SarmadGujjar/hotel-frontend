@@ -1,0 +1,364 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body {
+    overflow-x: hidden;
+}
+.logo:hover{
+    background-color: rgb(203, 197, 197);
+    cursor: pointer;
+}
+.room:hover{
+    background-color: rgb(203, 197, 197);
+    cursor: pointer;
+}
+.about:hover{
+    background-color: rgb(203, 197, 197);
+    cursor: pointer;
+}
+.contact:hover{
+    background-color: rgb(203, 197, 197);
+    cursor: pointer;
+}
+     nav{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0 10px;
+     }
+.logo{
+    background-color: red;
+    padding: 8px;
+    color: white;
+    border-radius: 10px;
+}
+.room{
+    padding: 8px;
+    border-radius: 10px;
+}
+.about{
+    padding: 8px;
+    border-radius: 10px;
+}
+.contact{
+    padding: 8px;
+    border-radius: 10px;
+}
+.div1{
+    background-color: white;
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+.button1{
+    align-items: center;
+    padding: 6px;
+    
+}
+header{
+    background-image: url(./../images/hotel.jpg);
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    text-align: center;
+    
+    align-items: center;
+    color: white;
+    font-size: 30px;
+}
+.card{
+    background-color: white;
+    margin-left:13px;
+    width:50% ;
+    color: black;
+}
+h3{
+    background-color: red;
+    text-align: left;
+}
+.card h3{
+    padding-left: 10px;
+    color: white;
+}
+.srch{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    padding: 10px;
+    font-size: 15px;
+    margin: 15px;
+}
+button:hover{
+    background-color: red;
+    cursor: pointer;
+    color: white;
+}
+.booking{
+    display: grid;
+    padding: 10px 20px;
+    gap: 10px;
+    grid-template-columns: 1fr 1fr; 
+
+}
+.booking input{
+    padding: 10px;
+    font-size: 15px;
+}
+.booking div{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    font-size: 20px;
+}
+.room{
+    padding-left: 10px;
+    margin:10px 0px;
+}
+.pra{
+    padding-left: 10px;
+}
+.booking2 .div{
+    display: flex;
+}
+
+.booking2{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 35px;
+    margin: 15px 0;
+    padding: 10px;
+}
+.booking2 div{
+    display: flex;
+    flex-direction: column;
+}
+.booking2 input{
+    padding: 10px;
+    font-size: 10px;
+}
+.searchbtn{
+    background-color: rgb(100, 100, 221);
+    padding: 10px;
+    font-size: 20px;
+    text-align: center;
+}
+.searchbtn:hover{
+    background-color:gray ;
+    cursor: pointer;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding-top: 10px;
+}
+
+.div{
+    display: flex;
+    margin: 15px;
+}
+.imgs{
+    display: flex;
+    width: 100vw;
+    margin: 20px;
+    gap: 10px;
+}
+.c1{
+    width: 30vw;
+
+}
+.c2{
+    width: 30vw;
+}
+.c3{
+    width: 30vw;
+}
+.img1{
+    display: flex;
+    flex-direction: column;
+}
+.img2{
+    display: flex;
+    flex-direction: column;
+}
+.img3{
+    display: flex;
+    flex-direction: column;
+}
+.cr1, .cr2, .cr3{
+    background-color: black;
+    color: white;
+    padding: 10px;
+    margin-top: 10px;
+}
+.about1{
+    display: flex;
+    gap: 30px;
+    flex-direction: row;
+    margin: 20px;
+    font-size: 18px;
+    width: 100%;
+}
+div2{
+    background-image:url(./../images/map.jpg) ;
+    height: 75vh;
+    width: 50%;
+}
+div1{
+    width: 50%;
+}
+
+
+
+.loc{
+    display: flex;
+    gap: 20%;
+    justify-content: center;
+    width: 100%;
+    margin: 30px;
+}
+.loc i{
+    color: red;
+}
+.demand{
+    background-color: red;
+    padding: 30px;
+    display: flex;
+    align-items: center;
+    margin:20px 0px ;
+    color: white;
+    font-size: 20px;
+}
+.ourhotel{
+    margin: 15px;
+    padding: 10px 0;
+    
+}
+.gallery{
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 10px;
+}
+
+.gallery img {
+    object-fit: cover;
+    width: 100%;
+}
+.item1{
+    grid-row: 1 / span 2;
+}
+.email{
+    background-color: black;
+    color: white;
+    padding: 10px ;
+    margin: 25px 0px;
+    display: grid;
+    gap: 10px;
+}
+.email form{
+    display: grid;
+    gap: 10px;
+}
+.email input{
+    padding: 10px;
+}
+.subscribe{
+    background-color: red;
+    padding: 7px;
+    width: 20vw;
+    color: white;
+}
+.contact{
+    padding: 10px;
+    margin: 10px;
+    gap: 10px;
+    display: grid;
+}
+.eml form{
+    display: flex;
+    flex-direction: column;
+        margin: 10px;
+        display: grid;
+        gap: 10px;
+        font-size: 10px;
+} 
+.eml input{
+    padding: 20px;
+}
+.sendmsg{
+    background-color: black;
+    color: white;
+    padding: 10px;
+margin: 10px;} 
+.sendmsg :hover{
+    background-color: grey;
+    cursor: pointer;
+} 
+.sloc{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+} 
+.last{
+    background-color: black;
+    font-size: 20px;
+    padding: 50px;
+    margin: 10px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    text-align: center;
+}  
+
+
+
+ @media screen and (max-width:500px)
+{
+    header{
+        width: 100vw;
+    }
+   .card{
+    width: 100%;
+    
+   }
+   .card input{
+    width: 100%;
+    padding: 0;
+   }
+   .booking2{
+    flex-direction: column;
+    height: 250px;
+    align-items: start;
+   }
+   .booking2 input{
+    gap: 10px;
+    height: 20%;
+
+   }
+   .imgs{
+    flex-direction: column;
+   }
+   .c1{
+    width: 100%;
+   }
+   .about1 {
+    flex-direction: column;
+    width: 100vw;
+    background-size: 100%;
+   }
+   .about1 div2{
+    width: 100%;
+   }
+   .loc{
+       display: flex;
+    flex-direction: column;
+    gap: 10px;
+
+    }
+
+} 
